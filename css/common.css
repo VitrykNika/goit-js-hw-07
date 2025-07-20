@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+li {
+  list-style: none;
+}
+
+/* task-1 */
+
+.item {
+  border-radius: 8px;
+  padding: 16px;
+  width: 392px;
+  background: #f6f6fe;
+  margin-bottom: 24px;
+}
+
+.item ul {
+  padding-left: 16px;
+  margin: 0;
+}
+
+.item h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 16px;
+  padding-left: 16px;
+}
+
+.item li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  width: 100%;
+  min-height: 40px;
+  margin-bottom: 8px;
+}
+
+.item li:last-child {
+  margin-bottom: 0;
+}
+
+
+
+/* task-2 */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 100px 156px 100px 156px;
+  justify-content: center;
+  gap: 48px 24px;
+}
+
+.gallery li {
+  flex: 1 1 calc((100% - 96px) / 3);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gallery img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+/* task-3 */
+
+.name-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  min-height: 40px;
+  padding-left: 16px;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 133%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-left: 16px;
+}
+
+/* task-4 */
+
+.login-form {
+  width: 360px;
+  min-height: 72px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+}
+
+.login-form input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 100%;
+  min-height: 40px;
+  padding-left: 16px;
+}
+
+.login-form button:hover,
+.login-form button:focus {
+  background: #6c8cff;
+}
+
+.login-form button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background: #4e75ff;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+/* task-5 */
+.widget {
+  border-radius: 8px;
+  padding: 100px 88px;
+  width: 345px;
+  height: 280px;
+  background: #fff;
+
+}
+
+.widget p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.change-color {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background: #4e75ff;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.change-color :hover,
+.change-color :focus {
+  background: #6c8cff;
+}
+
